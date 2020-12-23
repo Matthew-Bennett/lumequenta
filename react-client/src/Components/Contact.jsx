@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
-import NewsCarousel from "./CarouselComponent/NewsCarousel";
 import BackgroundImage from "./BackgroundImageComponent/BackgroundImage";
 import "./../../dist/style.css";
 
 
-class HomePage extends Component {
+class Contact extends Component {
     render() {
         return (
             <>
                 <BackgroundImage/>
-                <NewsCarousel/>
+                <h1 className='centered'>Please whisper Esgarath, Deathmire, Karébear or Oomykins for a chat!</h1>
             </>
         )
     }
 }
 
-export default HomePage;
+export default Contact;

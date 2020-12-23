@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
-import NewsCarousel from "./CarouselComponent/NewsCarousel";
 import BackgroundImage from "./BackgroundImageComponent/BackgroundImage";
 import "./../../dist/style.css";
 
 
-class HomePage extends Component {
+class About extends Component {
     render() {
         return (
             <>
-                <BackgroundImage/>
-                <NewsCarousel/>
+            <BackgroundImage/>
+            <h1 className='centered'>Lumé Quenta was formed on Scarshield Legion RPPVP in...</h1>
             </>
         )
     }
 }
 
-export default HomePage;
+export default About;
